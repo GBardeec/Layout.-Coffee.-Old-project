@@ -1,0 +1,378 @@
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Karla';
+	color: #1D1F2E;
+
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.navigation__logo {
+	padding-right: 97px;
+}
+
+.navigation {
+	display: flex;
+	text-transform: uppercase;
+	text-decoration: none;
+	align-items: center;
+	margin-top: 28px;
+}
+
+.navigation__button {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation__button li a {
+	padding: 0 30px 0 0;
+	text-decoration: none;
+	color: #1D1F2E;
+}
+
+.navigation__cart {
+	padding-left: 50px;
+	max-width: 92px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigation__cart img {
+	padding-right: 10px;
+}
+
+.navigation__cart a {
+	padding-right: 10px;
+	margin: 0;
+	text-decoration: none;
+	color: #1D1F2E;
+}
+
+
+.navigation__cart button {
+	 border-radius: 50%;
+	 border: none;
+	 background: black;
+	 color: white;
+	 height: 18px;
+	 width: 20px;
+	 align-items: center;
+}
+/* основная часть 1 страницы */
+
+.header-section {
+	background-color: #050827;
+	margin-top: 25px;
+}
+
+.header__section_text {
+	background: url(img/coffemugs.png) no-repeat center top / cover;
+	text-align: center;
+	color: #FFF;
+}
+
+.header__section_text p {
+	margin: 0;
+	padding-top: 157px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.header__section_text h1 {
+	margin: 0;
+	padding-top: 10px;
+	font-size: 47px;
+}
+
+.header__section_text h3 {
+	margin: 0;
+	padding-top: 10px;
+	font-size: 17px;
+}
+
+.header__section_text button {
+	margin: 50px 0 187px 0;
+	padding: 0 24px;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background: white;
+	color: black;
+	text-align: center;
+}
+
+/*основная страница*/
+
+.main__information {
+	padding: 123px 0 102px 0;
+	text-align: center;
+	max-width: 660px;
+	margin: 0 auto;
+}
+
+.main__information h2 {
+	font-size: 28px;
+	margin: 0;
+}
+
+.main__information p {
+	font-size: 16px;
+	margin: 0;
+	margin-top: 16px;
+}
+
+.main__information a {
+	text-decoration: none;
+	color: #A25F4B;
+	margin-top: 21px;
+}
+
+/*часть с картинками*/
+
+.main_images {
+	margin: 0 auto;
+}
+
+.main__images_text {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.main__images_text hr {
+	width: 30px;
+}
+
+.main__images_big-images {
+ 	margin: 100px 0 120px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.container__small-images {
+	margin: 35px 0 165px 0;
+}
+
+.small-container__small-images {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	padding-top: 65px;
+}
+
+/* нижняя часть меню */
+
+.magazine-coffe__content {
+	margin-top: 100px;
+}
+
+.big-container {
+	max-width: 460px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.small-container {
+	padding-left: 20px;
+}
+
+.male-container__cup:last-child {
+	padding-top: 16px;
+
+}
+
+.magazine-coffe__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.magazine-coffe__text {
+	max-width: 353px;
+}
+
+.magazine-coffe__text p {
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+.magazine-coffe__text h2 {
+	font-size: 36px;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+.magazine-coffe__text h3 {
+	font-size: 16px;
+	margin: 0;
+	padding-bottom: 34px;
+	color: rgba(29, 31, 46, 0.7);
+}
+
+.magazine-coffe__text button {
+	background: black;
+	color: white;
+	padding: 9px 24px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.main__img {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 130px 0 100px 0;
+}
+
+.main__img-cooking {
+ 	width: 1440px;
+	height: 340px;
+}
+
+.main-story__container {
+	padding: 100px 0 200px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container-story {
+	max-width: 300px;
+}
+
+.main-subscribe {
+	max-width: 1380px;
+	background: #1D1F2E;
+	margin: 0 auto;
+	color: white;
+}
+
+.main-subscribe__text {
+	text-align: center;
+}
+
+.main-subscribe__text P {
+	margin: 0;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 80px 0 15px;
+}
+
+.main-subscribe__text h2 {
+	font-size: 36px;
+	margin: 0;
+	padding-bottom: 25px;
+}
+
+.main-subscribe__buttom {
+	padding-bottom: 85px;
+}
+
+.main-subscribe__buttom-email {
+	padding: 18px 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 12px;
+	background: #1D1F2E;
+	color: white;
+	border: 1px solid #2F303E;
+	width: 350px;
+	text-align: center;
+}
+
+.main-subscribe__buttom-submit {
+	background: white;
+	color: black;
+	padding: 18px 25px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 12px;
+
+}
+
+/* подвал */
+
+.footer-info {
+	margin: 100px 0 60px 0;
+}
+
+.footer-info__content a {
+	text-decoration: none;
+	color: 1D1F2E;
+}
+
+.footer-info__content li {
+	list-style-type: none;
+}
+
+.footer-info__content {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+.table-info {
+	max-width: 258px;
+}
+
+.table-info li:first-child {
+	margin-bottom: 22px;
+}
+
+.table-info li:last-child {
+	margin-top: 80px;
+}
+
+.table-menu li {
+	padding-top: 10px;
+}
+
+.table-menu li:first-child {
+	padding: 0 0 10px 0;
+}
+
+.table-follow li {
+	padding-top: 10px;
+}
+
+.table-follow li:first-child {
+	padding: 0 0 10px 0;
+}
+
+.table-contact li {
+	padding-bottom: 22px;
+}
+
+/* А Д А П Т А Ц И Я */
+
+/*Навигация в header*/
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:769px) {
+
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (max-width:575px) {
+
+}
+
